@@ -98,7 +98,7 @@ const Modalbox = ({ close, value }) => {
               className="prev"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 1 ? 5 : index - 1);
+                setIndex(index == 1 ? 4 : index - 1);
               }}
             >
               <span className="text">Prev</span>
@@ -111,7 +111,7 @@ const Modalbox = ({ close, value }) => {
               className="next"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 5 ? 1 : index + 1);
+                setIndex(index == 4 ? 1 : index + 1);
               }}
             >
               <span className="text">Next</span>
