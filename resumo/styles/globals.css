@@ -20,7 +20,7 @@
 .resumo_fn_modalbox .img_holder img {
   margin-bottom: -50% !important;
   min-width: 100% !important;
-  max-height: unset !important;
+  max-height: 100% !important;
 }
 
 #send_message {

@@ -39,10 +39,7 @@ const About = ()=>{
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                 className: "desc",
-                                children: `I'm a Freelancer Front-end Developer with over 12 years
-                        of experience. I'm from San Francisco. I code and create
-                        web elements for amazing people around the world. I like
-                        work with new people. New people are new experiences.`
+                                children: `I'm an upcoming Full Stack SWE with experience working with React, Express, Flask, Node, SQLAlchemy, and PostgreSQL. I'm from Southern Maine and I create powerful and efficient programs that can be easily scaled and upgraded as required.`
                             })
                         ]
                     }),
@@ -487,7 +484,7 @@ const Contact = ()=>{
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                 className: "desc",
-                                children: "If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly."
+                                children: "If you have any suggestions, project or just say hello, please fill out the form below and I will reply to you shortly."
                             })
                         ]
                     }),
@@ -504,7 +501,7 @@ const Contact = ()=>{
                                 },
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                     className: "contact_success",
-                                    children: "Your message has been received, we will contact you soon."
+                                    children: "Your message has been received, I will contact you as soon as possible."
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -812,7 +809,7 @@ const Modalbox = ({ close , value  })=>{
                                                 children: d.name
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: "img_holder",
+                                                className: "img_holder_modal",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                         src: "/img/thumb/square.jpg",
@@ -1692,10 +1689,10 @@ const portfolioSliderProps = {
     },
     breakpoints: {
         480: {
-            slidesPerView: 2
+            slidesPerView: 1
         },
         1400: {
-            slidesPerView: 3
+            slidesPerView: 1
         }
     }
 };

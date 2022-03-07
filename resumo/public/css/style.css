@@ -7,7 +7,7 @@
 
 
 	List of CSS codes:
-	
+
 	01) Base
 	02) Site Structure
 	03) Site Right
@@ -53,7 +53,7 @@ body{
 	font-weight: 400;
 	color: #888;
 	background-color: #1d1b19;
-	
+
 	word-break: break-word;
 }
 .fn__svg{
@@ -186,7 +186,7 @@ a:focus {
 	bottom: 0;
 	right: 0;
 	top: 0;
-	
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -743,15 +743,15 @@ a:focus {
 	transform: translateY(0px);
 }
 @keyframes down_animation {
-      100% { transform: translateY(-10px);}   
+      100% { transform: translateY(-10px);}
     0% { transform: translateY(0);}
 }
 @-webkit-keyframes down_animation {
-      100% { transform: translateY(-10px);}   
+      100% { transform: translateY(-10px);}
     0% { transform: translateY(0);}
 }
 @-moz-keyframes down_animation {
-      100% { transform: translateY(-10px);}   
+      100% { transform: translateY(-10px);}
     0% { transform: translateY(0);}
 }
 /*------------------------------------------------------------------*/
@@ -823,11 +823,11 @@ a:focus {
     -moz-animation: tab_animation 1s ease;
 }
 @keyframes tab_animation {
-      0% { opacity: 0; transform: rotateY(20deg) rotateZ(-3deg);}   
+      0% { opacity: 0; transform: rotateY(20deg) rotateZ(-3deg);}
     100% { opacity: 1; transform: rotateY(0deg) rotateZ(0deg);}
 }
 @-moz-keyframes tab_animation {
-      0% { opacity: 0;  transform: rotateY(20deg) rotateZ(-3deg);}   
+      0% { opacity: 0;  transform: rotateY(20deg) rotateZ(-3deg);}
     100% { opacity: 1; transform: rotateY(0deg) rotateZ(0deg);}
 }
 /*------------------------------------------------------------------*/
@@ -1170,7 +1170,14 @@ a:focus {
 	position: relative;
 }
 #portfolio .img_holder{
+	width: 60%;
+	height: fit-content;
+	overflow: hidden;
+	position: relative;
+}
+#portfolio .img_holder_modal{
 	width: 100%;
+	height: fit-content;
 	overflow: hidden;
 	position: relative;
 }
@@ -1180,7 +1187,7 @@ a:focus {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	
+
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1188,7 +1195,7 @@ a:focus {
 #portfolio .img_holder img{
 	margin-bottom: -24%;
 	opacity: 0 !important;
-	max-height: 370px;
+	max-height: fit-content;
 }
 #portfolio .title_holder{
 	padding-top: 26px;
@@ -1516,7 +1523,7 @@ a:focus {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	
+
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -2124,7 +2131,7 @@ a:focus {
 	.resumo_fn_right .right_in{height: auto !important;}
 	.resumo_fn_left{min-width: 100%;min-height: inherit;width: 100%;}
 	.resumo_fn_right .right_in{padding: 100px 20%;}
-	
+
 	#home{padding-top: 50px;min-height: inherit;padding-bottom: 0;}
 	#about{padding-top: 150px;}
 	#portfolio{padding-top: 100px;}
@@ -2229,7 +2236,7 @@ body.light .resumo_fn_boxed_list .item:after{background-color: rgba(0,0,0,.2)}
 body.light .resumo_fn_service_list .item_right{border-color: rgba(0,0,0,.05)}
 body.light .resumo_fn_partners a{background-color: #fafafa;}
 body.light .resumo_fn_partners a:hover{background-color: #eee;}
-body.light h1>a, 
+body.light h1>a,
 body.light h2>a,
 body.light h3>a,
 body.light h4>a,
@@ -2369,7 +2376,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 	background-color: rgba(29,27,25,.95);
 	opacity: 0;
 	visibility: hidden;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -2477,7 +2484,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 	visibility: hidden;
 	margin-top: -20px;
 	border: 1px solid rgba(255,255,255,.2);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;

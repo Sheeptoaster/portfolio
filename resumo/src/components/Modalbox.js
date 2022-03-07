@@ -71,7 +71,7 @@ const Modalbox = ({ close, value }) => {
                   <div key={i}>
                     <p className="fn__cat">{d.tag}</p>
                     <h3 className="fn__title">{d.name}</h3>
-                    <div className="img_holder">
+                    <div className="img_holder_modal">
                       <img src="/img/thumb/square.jpg" alt="" />
                       <div
                         className="abs_img"
