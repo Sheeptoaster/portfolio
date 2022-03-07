@@ -9,7 +9,8 @@ const Modalbox = ({ close, value }) => {
       desc: [
         { p: "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies." }
       ],
-      img: "img/portfolio/forallthemarbles.png"
+      img: "img/portfolio/forallthemarbles.png",
+      link: "https://capstone-fotm.herokuapp.com/"
     },
     {
       name: "ReTappd",
@@ -17,7 +18,8 @@ const Modalbox = ({ close, value }) => {
       desc: [
         { p: "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts." }
       ],
-      img: "img/portfolio/retappd.png"
+      img: "img/portfolio/retappd.png",
+      link: "https://aa-solo-project.herokuapp.com/"
     },
     {
       name: "Insta-Clone",
@@ -25,7 +27,8 @@ const Modalbox = ({ close, value }) => {
       desc: [
         { p: "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users."}
       ],
-      img: "img/portfolio/instaclone.png"
+      img: "img/portfolio/instaclone.png",
+      link: "https://flask-instagram-clone.herokuapp.com/"
     },
     {
       name: "Extension Hunt",
@@ -33,7 +36,8 @@ const Modalbox = ({ close, value }) => {
       desc: [
         { p: "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions." }
       ],
-      img: "img/portfolio/extensionhunt.png"
+      img: "img/portfolio/extensionhunt.png",
+      link: "https://extension-hunt.herokuapp.com/"
     },
   ];
 
@@ -70,7 +74,7 @@ const Modalbox = ({ close, value }) => {
                 i + 1 == index && (
                   <div key={i}>
                     <p className="fn__cat">{d.tag}</p>
-                    <h3 className="fn__title">{d.name}</h3>
+                    <h3 className="fn__title"><a href={d.link} target="_blank">{d.name}</a></h3>
                     <div className="img_holder_modal">
                       <img src="/img/thumb/square.jpg" alt="" />
                       <div

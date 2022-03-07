@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/AL85UngkhuCqS13WB5uO2/_buildManifest.js",
-    "static/AL85UngkhuCqS13WB5uO2/_ssgManifest.js",
-    "static/AL85UngkhuCqS13WB5uO2/_middlewareManifest.js"
+    "static/D4Ne0HnFNruKJeNZNuHN6/_buildManifest.js",
+    "static/D4Ne0HnFNruKJeNZNuHN6/_ssgManifest.js",
+    "static/D4Ne0HnFNruKJeNZNuHN6/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -15,7 +15,7 @@
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-6099a486a931d74e.js",
       "static/chunks/512-c93b99786d6af0d5.js",
-      "static/chunks/158-2eea41675a1e6797.js",
+      "static/chunks/158-2af576e5db44a4c5.js",
       "static/chunks/pages/index-2a5d79ec42750c0c.js"
     ],
     "/_app": [
@@ -36,7 +36,7 @@
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-6099a486a931d74e.js",
       "static/chunks/512-c93b99786d6af0d5.js",
-      "static/chunks/158-2eea41675a1e6797.js",
+      "static/chunks/158-2af576e5db44a4c5.js",
       "static/chunks/pages/index-light-04f9d20cee7de78a.js"
     ],
     "/intro": [

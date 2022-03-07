@@ -730,7 +730,8 @@ const Modalbox = ({ close , value  })=>{
                     p: "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies."
                 }
             ],
-            img: "img/portfolio/forallthemarbles.png"
+            img: "img/portfolio/forallthemarbles.png",
+            link: "https://capstone-fotm.herokuapp.com/"
         },
         {
             name: "ReTappd",
@@ -740,7 +741,8 @@ const Modalbox = ({ close , value  })=>{
                     p: "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts."
                 }
             ],
-            img: "img/portfolio/retappd.png"
+            img: "img/portfolio/retappd.png",
+            link: "https://aa-solo-project.herokuapp.com/"
         },
         {
             name: "Insta-Clone",
@@ -750,7 +752,8 @@ const Modalbox = ({ close , value  })=>{
                     p: "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users."
                 }
             ],
-            img: "img/portfolio/instaclone.png"
+            img: "img/portfolio/instaclone.png",
+            link: "https://flask-instagram-clone.herokuapp.com/"
         },
         {
             name: "Extension Hunt",
@@ -760,7 +763,8 @@ const Modalbox = ({ close , value  })=>{
                     p: "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions."
                 }
             ],
-            img: "img/portfolio/extensionhunt.png"
+            img: "img/portfolio/extensionhunt.png",
+            link: "https://extension-hunt.herokuapp.com/"
         }, 
     ];
     const { 0: index , 1: setIndex  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(value);
@@ -806,7 +810,11 @@ const Modalbox = ({ close , value  })=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
-                                                children: d.name
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    href: d.link,
+                                                    target: "_blank",
+                                                    children: d.name
+                                                })
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "img_holder_modal",
