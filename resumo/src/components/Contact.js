@@ -39,8 +39,8 @@ const Contact = () => {
             <h3 className="subtitle">Contact</h3>
             <h3 className="title">Get In Touch</h3>
             <p className="desc">
-              If you have any suggestion, project or even you want to say
-              “hello”, please fill out the form below and I will reply you
+              If you have any suggestions, project or just say
+              hello, please fill out the form below and I will reply to you
               shortly.
             </p>
           </div>
@@ -53,7 +53,7 @@ const Contact = () => {
               style={{ display: success ? "block" : "none" }}
             >
               <span className="contact_success">
-                Your message has been received, we will contact you soon.
+                Your message has been received, I will contact you as soon as possible.
               </span>
             </div>
             <div

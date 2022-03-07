@@ -21,10 +21,10 @@ export const portfolioSliderProps = {
   },
   breakpoints: {
     480: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     1400: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
   },
 };
