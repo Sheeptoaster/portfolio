@@ -12,10 +12,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`I'm a Freelancer Front-end Developer with over 12 years
-                        of experience. I'm from San Francisco. I code and create
-                        web elements for amazing people around the world. I like
-                        work with new people. New people are new experiences.`}
+              {`I'm an upcoming Full Stack SWE with experience working with React, Express, Flask, Node, SQLAlchemy, and PostgreSQL. I'm from southern Maine and I create powerful and efficient programs that can be easily scaled and upgraded as required.`}
             </p>
           </div>
           {/* /Main Title */}
