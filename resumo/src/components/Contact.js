@@ -39,9 +39,8 @@ const Contact = () => {
             <h3 className="subtitle">Contact</h3>
             <h3 className="title">Get In Touch</h3>
             <p className="desc">
-              If you have any suggestions, project or just say
-              hello, please fill out the form below and I will reply to you
-              shortly.
+              If you have any suggestions, projects to work on, or just want to say
+              hello, please fill out the form below and I will reply to you as soon as possible.
             </p>
           </div>
           {/* /Main Title */}
