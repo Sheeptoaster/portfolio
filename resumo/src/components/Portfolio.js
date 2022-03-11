@@ -46,13 +46,14 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/retappd.png" />
               </div>
               <div className="title_holder">
-                <p>Web App Inspired by UnTappd, Solo</p>
+                <p>ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.</p>
                 <h3>
                   <a href="#">ReTappd</a>
                 </h3>
+                <p>React, Express, PostgreSQL, Node, Redux</p>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">Web App Inspired by UnTappd, Solo</p>
+                <p className="fn__cat">React, Express, PostgreSQL, Node, Redux</p>
                 <h3 className="fn__title">ReTappd</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
@@ -60,6 +61,7 @@ const Portfolio = () => {
                 </div>
                 <p className="fn__desc">
                 ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.
+                <a href="https://aa-solo-project.herokuapp.com/" target="_blank">Live Site</a>
                 </p>
               </div>
             </SwiperSlide>
@@ -76,13 +78,14 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/extensionhunt.png" />
               </div>
               <div className="title_holder">
-                <p>Take on ProductHunt, 4 Person Group</p>
+                <p>Express, PUG, Node, PostgreSQL</p>
                 <h3>
                   <a href="#">Extension Hunt</a>
                 </h3>
+                <p>Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions.</p>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">Take on ProductHunt, 4 Person Group</p>
+                <p className="fn__cat">Express, PUG, Node, PostgreSQL</p>
                 <h3 className="fn__title">Extension Hunt</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
@@ -90,6 +93,7 @@ const Portfolio = () => {
                 </div>
                 <p className="fn__desc">
                 Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions.
+                <a href="https://extension-hunt.herokuapp.com/" target="_blank">Live Site</a>
                 </p>
               </div>
             </SwiperSlide>
@@ -106,13 +110,14 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/forallthemarbles.png" />
               </div>
               <div className="title_holder">
-                <p>Stock Market Simulation, Solo</p>
+                <p>React, Flask, SQLAlchemy, PostgreSQL, Redux</p>
                 <h3>
                   <a href="#">For All The Marbles</a>
                 </h3>
+                <p>For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies.</p>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">Stock Market Design, Solo</p>
+                <p className="fn__cat">React, Flask, SQLAlchemy, PostgreSQL, Redux</p>
                 <h3 className="fn__title">For All The Marbles</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
@@ -120,6 +125,7 @@ const Portfolio = () => {
                 </div>
                 <p className="fn__desc">
                   For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies.
+                  <a href="https://capstone-fotm.herokuapp.com/" target="_blank">Live Site</a>
                 </p>
               </div>
             </SwiperSlide>
@@ -136,13 +142,14 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/instaclone.png" />
               </div>
               <div className="title_holder">
-                <p>Instagram Clone, 4 Person Group</p>
+                <p>React, Flask, SQLAlchemy, PostgreSQL, Redux</p>
                 <h3>
                   <a href="#">Insta-Clone</a>
                 </h3>
+                <p>Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users.</p>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">Instragram Clone, 4 Person Group</p>
+                <p className="fn__cat">React, Flask, SQLAlchemy, PostgreSQL, Redux</p>
                 <h3 className="fn__title">Insta-Clone</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
@@ -150,6 +157,7 @@ const Portfolio = () => {
                 </div>
                 <p className="fn__desc">
                 Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users.
+                <a href="https://flask-instagram-clone.herokuapp.com/" target="_blank">Live Site</a>
                 </p>
               </div>
             </SwiperSlide>

@@ -10,7 +10,7 @@ export const portfolioSliderProps = {
   slidesPerView: 1,
   loop: true,
   spaceBetween: 30,
-  speed: 1000,
+  speed: 2500,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
