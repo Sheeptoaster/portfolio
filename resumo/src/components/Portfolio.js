@@ -46,11 +46,11 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/retappd.png" />
               </div>
               <div className="title_holder">
-                <p>ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.</p>
+                <p>React, Express, PostgreSQL, Node, Redux</p>
                 <h3>
                   <a href="#">ReTappd</a>
                 </h3>
-                <p>React, Express, PostgreSQL, Node, Redux</p>
+                <p>ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.</p>
               </div>
               <div className="fn__hidden">
                 <p className="fn__cat">React, Express, PostgreSQL, Node, Redux</p>
