@@ -91,7 +91,7 @@ const Modalbox = ({ close, value }) => {
                         {des.p}
                       </p>
                     ))}
-                    <a href={d.repoLink} target="_blank" className="fn__desc">Repo Link</a>
+                    <a href={d.repoLink} target="_blank" className="fn__title">Repo Link</a>
                   </div>
                 )
             )}
