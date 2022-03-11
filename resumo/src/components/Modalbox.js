@@ -10,7 +10,8 @@ const Modalbox = ({ close, value }) => {
         { p: "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies." }
       ],
       img: "img/portfolio/forallthemarbles.png",
-      link: "https://capstone-fotm.herokuapp.com/"
+      link: "https://capstone-fotm.herokuapp.com/",
+      repoLink: "https://github.com/Sheeptoaster/Capstone"
     },
     {
       name: "ReTappd",
@@ -19,7 +20,8 @@ const Modalbox = ({ close, value }) => {
         { p: "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts." }
       ],
       img: "img/portfolio/retappd.png",
-      link: "https://aa-solo-project.herokuapp.com/"
+      link: "https://aa-solo-project.herokuapp.com/",
+      repoLink: "https://github.com/Sheeptoaster/W15-Solo-Project"
     },
     {
       name: "Insta-Clone",
@@ -28,7 +30,8 @@ const Modalbox = ({ close, value }) => {
         { p: "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users."}
       ],
       img: "img/portfolio/instaclone.png",
-      link: "https://flask-instagram-clone.herokuapp.com/"
+      link: "https://flask-instagram-clone.herokuapp.com/",
+      repoLink: "https://github.com/jinnie96/Instagram-Clone"
     },
     {
       name: "Extension Hunt",
@@ -37,7 +40,8 @@ const Modalbox = ({ close, value }) => {
         { p: "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions." }
       ],
       img: "img/portfolio/extensionhunt.png",
-      link: "https://extension-hunt.herokuapp.com/"
+      link: "https://extension-hunt.herokuapp.com/",
+      repoLink: "https://github.com/ntseng/w12-groupproject"
     },
   ];
 
@@ -87,6 +91,7 @@ const Modalbox = ({ close, value }) => {
                         {des.p}
                       </p>
                     ))}
+                    <p className="fn__desc">{d.repoLink}</p>
                   </div>
                 )
             )}
