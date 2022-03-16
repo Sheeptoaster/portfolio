@@ -64,16 +64,6 @@ const About = ()=>{
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
-                                                        children: "Birthday"
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
-                                                        children: "June 16th 1995"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
                                                         children: "Address"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("th", {
@@ -484,7 +474,7 @@ const Contact = ()=>{
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                 className: "desc",
-                                children: "If you have any suggestions, project or just say hello, please fill out the form below and I will reply to you shortly."
+                                children: "If you have any suggestions, projects to work on, or just want to say hello, please fill out the form below and I will reply to you as soon as possible."
                             })
                         ]
                     }),
@@ -651,6 +641,24 @@ const Contact = ()=>{
                                     href: "mailto:jweber04005@msn.com",
                                     children: "jweber04005@msn.com"
                                 })
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    href: "https://github.com/Sheeptoaster",
+                                    style: {
+                                        "color": "#DDDDDD"
+                                    },
+                                    children: "GitHub"
+                                })
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    href: "https://www.linkedin.com/in/jacob-weber-662a08153/",
+                                    style: {
+                                        "color": "#DDDDDD"
+                                    },
+                                    children: "LinkedIn"
+                                })
                             })
                         ]
                     })
@@ -731,7 +739,8 @@ const Modalbox = ({ close , value  })=>{
                 }
             ],
             img: "img/portfolio/forallthemarbles.png",
-            link: "https://capstone-fotm.herokuapp.com/"
+            link: "https://capstone-fotm.herokuapp.com/",
+            repoLink: "https://github.com/Sheeptoaster/Capstone"
         },
         {
             name: "ReTappd",
@@ -742,7 +751,8 @@ const Modalbox = ({ close , value  })=>{
                 }
             ],
             img: "img/portfolio/retappd.png",
-            link: "https://aa-solo-project.herokuapp.com/"
+            link: "https://aa-solo-project.herokuapp.com/",
+            repoLink: "https://github.com/Sheeptoaster/W15-Solo-Project"
         },
         {
             name: "Insta-Clone",
@@ -753,7 +763,8 @@ const Modalbox = ({ close , value  })=>{
                 }
             ],
             img: "img/portfolio/instaclone.png",
-            link: "https://flask-instagram-clone.herokuapp.com/"
+            link: "https://flask-instagram-clone.herokuapp.com/",
+            repoLink: "https://github.com/jinnie96/Instagram-Clone"
         },
         {
             name: "Extension Hunt",
@@ -764,7 +775,8 @@ const Modalbox = ({ close , value  })=>{
                 }
             ],
             img: "img/portfolio/extensionhunt.png",
-            link: "https://extension-hunt.herokuapp.com/"
+            link: "https://extension-hunt.herokuapp.com/",
+            repoLink: "https://github.com/ntseng/w12-groupproject"
         }, 
     ];
     const { 0: index , 1: setIndex  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(value);
@@ -833,7 +845,16 @@ const Modalbox = ({ close , value  })=>{
                                                     className: "fn__desc",
                                                     children: des.p
                                                 }, i)
-                                            )
+                                            ),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                href: d.repoLink,
+                                                target: "_blank",
+                                                className: "fn__title",
+                                                style: {
+                                                    "color": "#987750"
+                                                },
+                                                children: "Repo Link"
+                                            })
                                         ]
                                     }, i1)
                                 )
@@ -848,7 +869,7 @@ const Modalbox = ({ close , value  })=>{
                                         className: "prev",
                                         onClick: (e)=>{
                                             e.preventDefault();
-                                            setIndex(index == 1 ? 5 : index - 1);
+                                            setIndex(index == 1 ? 4 : index - 1);
                                         },
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
@@ -868,7 +889,7 @@ const Modalbox = ({ close , value  })=>{
                                         className: "next",
                                         onClick: (e)=>{
                                             e.preventDefault();
-                                            setIndex(index == 5 ? 1 : index + 1);
+                                            setIndex(index == 4 ? 1 : index + 1);
                                         },
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
@@ -998,13 +1019,16 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "Web App Inspired by UnTappd, Solo"
+                                                children: "React, Express, PostgreSQL, Node, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
                                                     children: "ReTappd"
                                                 })
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts."
                                             })
                                         ]
                                     }),
@@ -1013,7 +1037,7 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "Web App Inspired by UnTappd, Solo"
+                                                children: "React, Express, PostgreSQL, Node, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
@@ -1032,9 +1056,16 @@ const Portfolio = ()=>{
                                                     })
                                                 ]
                                             }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: "fn__desc",
-                                                children: "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts."
+                                                children: [
+                                                    "ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "https://aa-solo-project.herokuapp.com/",
+                                                        target: "_blank",
+                                                        children: "Live Site"
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
@@ -1065,13 +1096,16 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "Take on ProductHunt, 4 Person Group"
+                                                children: "Express, PUG, Node, PostgreSQL"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
                                                     children: "Extension Hunt"
                                                 })
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions."
                                             })
                                         ]
                                     }),
@@ -1080,7 +1114,7 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "Take on ProductHunt, 4 Person Group"
+                                                children: "Express, PUG, Node, PostgreSQL"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
@@ -1099,9 +1133,16 @@ const Portfolio = ()=>{
                                                     })
                                                 ]
                                             }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: "fn__desc",
-                                                children: "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions."
+                                                children: [
+                                                    "Extension Hunt is a clone of Product Hunt that allows users to share their favorite extensions from VSCode and also allows users to share their thoughts on those extensions.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "https://extension-hunt.herokuapp.com/",
+                                                        target: "_blank",
+                                                        children: "Live Site"
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
@@ -1132,13 +1173,16 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "Stock Market Simulation, Solo"
+                                                children: "React, Flask, SQLAlchemy, PostgreSQL, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
                                                     children: "For All The Marbles"
                                                 })
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies."
                                             })
                                         ]
                                     }),
@@ -1147,7 +1191,7 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "Stock Market Design, Solo"
+                                                children: "React, Flask, SQLAlchemy, PostgreSQL, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
@@ -1166,9 +1210,16 @@ const Portfolio = ()=>{
                                                     })
                                                 ]
                                             }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: "fn__desc",
-                                                children: "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies."
+                                                children: [
+                                                    "For All The Marbles is a site based around Robinhood that allows users to buy and sell stocks from their favorite companies, and even create and list their own companies.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "https://capstone-fotm.herokuapp.com/",
+                                                        target: "_blank",
+                                                        children: "Live Site"
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
@@ -1199,13 +1250,16 @@ const Portfolio = ()=>{
                                         className: "title_holder",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "Instagram Clone, 4 Person Group"
+                                                children: "React, Flask, SQLAlchemy, PostgreSQL, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                     href: "#",
                                                     children: "Insta-Clone"
                                                 })
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users."
                                             })
                                         ]
                                     }),
@@ -1214,7 +1268,7 @@ const Portfolio = ()=>{
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "fn__cat",
-                                                children: "Instragram Clone, 4 Person Group"
+                                                children: "React, Flask, SQLAlchemy, PostgreSQL, Redux"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                 className: "fn__title",
@@ -1233,9 +1287,16 @@ const Portfolio = ()=>{
                                                     })
                                                 ]
                                             }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: "fn__desc",
-                                                children: "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users."
+                                                children: [
+                                                    "Insta-Clone is an Instagram clone where user’s are able to create an account, upload images to posts, comment on posts, and follow/unfollow users.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "https://flask-instagram-clone.herokuapp.com/",
+                                                        target: "_blank",
+                                                        children: "Live Site"
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
@@ -1686,7 +1747,7 @@ const portfolioSliderProps = {
     slidesPerView: 1,
     loop: true,
     spaceBetween: 30,
-    speed: 1000,
+    speed: 2500,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false

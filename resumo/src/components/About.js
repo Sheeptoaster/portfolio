@@ -26,10 +26,6 @@ const About = () => {
                     <th>Jake Weber</th>
                   </tr>
                   <tr>
-                    <th>Birthday</th>
-                    <th>June 16th 1995</th>
-                  </tr>
-                  <tr>
                     <th>Address</th>
                     <th>Old Orchard Beach, ME</th>
                   </tr>
