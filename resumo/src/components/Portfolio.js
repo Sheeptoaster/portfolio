@@ -37,38 +37,6 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(2);
-              }}
-              data-index={2}
-            >
-              <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/retappd.png" />
-              </div>
-              <div className="title_holder">
-                <p>React, Express, PostgreSQL, Node, Redux</p>
-                <h3>
-                  <a href="#">ReTappd</a>
-                </h3>
-                <p>ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.</p>
-              </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">React, Express, PostgreSQL, Node, Redux</p>
-                <h3 className="fn__title">ReTappd</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/retappd.png" />
-                </div>
-                <p className="fn__desc">
-                ReTappd is a clone of UnTappd that allows users to check in at famous bars around the world and share their thoughts.
-                <a href="https://aa-solo-project.herokuapp.com/" target="_blank">Live Site</a>
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide
-              className="item modal_item"
-              onClick={() => {
-                setModal(true);
                 setModalValue(4);
               }}
               data-index={4}
